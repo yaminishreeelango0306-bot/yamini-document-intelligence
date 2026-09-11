@@ -1,11 +1,40 @@
+# Python
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.venv/
+*.pyo
+
+# Virtual environment
 venv/
+.venv/
+env/
+
+# Environment variables
 .env
-backend/*.db
-backend/uploads/*
-!backend/uploads/.gitkeep
-*.log
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+
+# Uploaded/generated files
+uploads/
+outputs/
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
