@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: document-intelligence
+    env: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: MAX_PAGES
+        value: "3"
+      - key: MAX_FILE_SIZE_MB
+        value: "15"
+      - key: OCR_DPI
+        value: "220"
+      - key: FINANCIAL_TOLERANCE
+        value: "0.02"

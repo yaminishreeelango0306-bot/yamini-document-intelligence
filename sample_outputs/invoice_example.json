@@ -1,0 +1,158 @@
+{
+  "document_name": "batch2-0999.jpg",
+  "document_type": "invoice",
+  "processing_status": "PASS",
+  "file_validation": {
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "extracted_data": {
+    "invoice_number": {
+      "value": "118",
+      "confidence": 0.88,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "INVOICE NO. 118",
+        "page_number": 1
+      }
+    },
+    "invoice_date": {
+      "value": "March 9, 2022",
+      "confidence": 0.88,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "DATE: March 9, 2022",
+        "page_number": 1
+      }
+    },
+    "vendor_name": {
+      "value": "BLUE STREAK ELECTRONICS",
+      "confidence": 0.88,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Bill from BLUE STREAK ELECTRONICS",
+        "page_number": 1
+      }
+    },
+    "customer_name": {
+      "value": "GEONICS LTD",
+      "confidence": 0.88,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Bill To GEONICS LTD",
+        "page_number": 1
+      }
+    },
+    "currency": {
+      "value": "CAD",
+      "confidence": 0.95,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "MISSISSAUGA, Ontario, Canada",
+        "page_number": 1
+      }
+    },
+    "subtotal": {
+      "value": 804.0,
+      "confidence": 0.94,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Subtotal 804",
+        "page_number": 1
+      }
+    },
+    "tax_amount": {
+      "value": 63.47,
+      "confidence": 0.94,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Sales Tax 8% 63.47",
+        "page_number": 1
+      }
+    },
+    "discount": {
+      "value": null,
+      "confidence": null,
+      "page_number": null,
+      "evidence": null
+    },
+    "total_amount": {
+      "value": 916.47,
+      "confidence": 0.94,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "Total Due 916.47",
+        "page_number": 1
+      }
+    },
+    "line_items": [
+      {
+        "description": "3M Scotchcast Electrical Resin #8 - 16 Ibs/kit 16 Ibs/case",
+        "quantity": 2,
+        "unit_price": 346.0,
+        "amount": 346.0,
+        "page_number": 1
+      },
+      {
+        "description": "3M DP460 EG Epoxy Adhesive - 50ml 2:1 12 kits/case",
+        "quantity": 4,
+        "unit_price": 226.0,
+        "amount": 226.0,
+        "page_number": 1
+      },
+      {
+        "description": "Freight AE Blake Montreal to Aerospace Metal",
+        "quantity": 6,
+        "unit_price": 136.0,
+        "amount": 136.0,
+        "page_number": 1
+      },
+      {
+        "description": "Lead-time is a mere estimate. Actual delivery may differ without notice",
+        "quantity": 8,
+        "unit_price": 96.0,
+        "amount": 96.0,
+        "page_number": 1
+      }
+    ],
+    "shipping": {
+      "value": 50.0,
+      "confidence": 0.94,
+      "page_number": 1,
+      "evidence": {
+        "source_text": "S&H 50",
+        "page_number": 1
+      }
+    }
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "invoice_total_check",
+        "formula": "subtotal + tax_amount + shipping - discount",
+        "operands": {
+          "subtotal": 804.0,
+          "tax_amount": 63.47,
+          "shipping": 50.0,
+          "discount": 0.0
+        },
+        "calculated_value": 917.47,
+        "reported_value": 916.47,
+        "variance": 1.0,
+        "status": "FAIL"
+      }
+    ],
+    "overall_status": "FAIL",
+    "issues": [
+      "Validation failed: invoice_total_check"
+    ]
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "example",
+    "processing_time_ms": 0
+  }
+}

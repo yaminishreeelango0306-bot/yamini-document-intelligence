@@ -1,0 +1,68 @@
+DOCUMENT INTELLIGENCE PROJECT - EXACT FILE PATHS
+
+project-root/
+  Dockerfile
+  render.yaml
+  .env.example
+  .gitignore
+  README.md
+  backend/
+    requirements.txt
+    app/
+      __init__.py
+      main.py
+      api/
+        __init__.py
+        routes/
+          __init__.py
+          documents.py
+      core/
+        __init__.py
+        config.py
+        database.py
+        logging.py
+      models/
+        __init__.py
+        document.py
+      schemas/
+        __init__.py
+        document.py
+        extraction.py
+      services/
+        __init__.py
+        document_validation_service.py
+        ocr_service.py
+        extraction_service.py
+        financial_validation_service.py
+        document_service.py
+      repositories/
+        __init__.py
+        document_repository.py
+      utils/
+        __init__.py
+        text.py
+    tests/
+      test_api.py
+      test_validation.py
+      test_extraction.py
+    uploads/
+      .gitkeep
+  frontend/
+    templates/
+      dashboard.html
+      document_result.html
+    static/
+      css/style.css
+      js/app.js
+  docs/
+    architecture.md
+    architecture.png
+  sample_outputs/
+    invoice_example.json
+    balance_sheet_example.json
+
+PASTE/CREATE:
+1. Extract the ZIP.
+2. Open the extracted "document_intelligence_project" folder as the project root.
+3. Keep the folder structure exactly as shown.
+4. Run the commands in README.md.

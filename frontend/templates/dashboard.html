@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Document Intelligence</title>
+
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:Inter,Segoe UI,Arial,sans-serif;
+      background:
+        radial-gradient(circle at top left,rgba(59,130,246,.16),transparent 32%),
+        radial-gradient(circle at top right,rgba(14,165,233,.12),transparent 28%),
+        #f4f7fb;
+      color:#172033;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:100;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:22px 6%;
+      background:rgba(255,255,255,.88);
+      backdrop-filter:blur(18px);
+      border-bottom:1px solid rgba(148,163,184,.22);
+      box-shadow:0 4px 25px rgba(15,23,42,.06);
+    }
+
+    header h1{
+      margin:0;
+      font-size:25px;
+      font-weight:750;
+      letter-spacing:-.5px;
+      color:#0f172a;
+    }
+
+    header p{
+      margin:5px 0 0;
+      color:#64748b;
+      font-size:13px;
+    }
+
+    header a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:10px 17px;
+      border-radius:10px;
+      text-decoration:none;
+      font-size:14px;
+      font-weight:650;
+      color:#fff;
+      background:#2563eb;
+      box-shadow:0 7px 18px rgba(37,99,235,.22);
+      transition:.2s ease;
+    }
+
+    header a:hover{
+      transform:translateY(-1px);
+      background:#1d4ed8;
+      box-shadow:0 10px 22px rgba(37,99,235,.28);
+    }
+
+    main{
+      width:min(1200px,92%);
+      margin:35px auto 70px;
+    }
+
+    .hero{
+      position:relative;
+      overflow:hidden;
+      margin-bottom:25px;
+      padding:35px;
+      border-radius:22px;
+      background:
+        linear-gradient(135deg,#0f172a,#172554 58%,#1d4ed8);
+      color:#fff;
+      box-shadow:0 18px 45px rgba(15,23,42,.18);
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      width:230px;
+      height:230px;
+      right:-70px;
+      top:-100px;
+      border-radius:50%;
+      background:rgba(255,255,255,.08);
+    }
+
+    .hero h2{
+      position:relative;
+      z-index:1;
+      margin:0 0 9px;
+      font-size:30px;
+      letter-spacing:-.7px;
+    }
+
+    .hero p{
+      position:relative;
+      z-index:1;
+      margin:0;
+      max-width:650px;
+      color:#dbeafe;
+      line-height:1.65;
+      font-size:15px;
+    }
+
+    .hero-badges{
+      position:relative;
+      z-index:1;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:22px;
+    }
+
+    .hero-badge{
+      padding:7px 12px;
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:999px;
+      background:rgba(255,255,255,.09);
+      color:#e0f2fe;
+      font-size:12px;
+      font-weight:600;
+    }
+
+    .card{
+      margin-bottom:24px;
+      padding:26px;
+      border:1px solid rgba(148,163,184,.2);
+      border-radius:18px;
+      background:rgba(255,255,255,.94);
+      box-shadow:0 10px 30px rgba(15,23,42,.07);
+    }
+
+    .card h2{
+      margin:0;
+      color:#0f172a;
+      font-size:20px;
+      letter-spacing:-.3px;
+    }
+
+    .card-subtitle{
+      margin:6px 0 23px;
+      color:#64748b;
+      font-size:13px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+      margin-top:22px;
+    }
+
+    label{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      color:#334155;
+      font-size:13px;
+      font-weight:650;
+    }
+
+    select,
+    input[type="file"]{
+      width:100%;
+      min-height:46px;
+      padding:11px 13px;
+      border:1px solid #dbe3ee;
+      border-radius:10px;
+      outline:none;
+      background:#f8fafc;
+      color:#172033;
+      font-family:inherit;
+      font-size:14px;
+      transition:.2s ease;
+    }
+
+    select:focus,
+    input[type="file"]:focus{
+      border-color:#60a5fa;
+      background:#fff;
+      box-shadow:0 0 0 4px rgba(37,99,235,.09);
+    }
+
+    input[type="file"]{
+      padding:9px;
+    }
+
+    input[type="file"]::file-selector-button{
+      margin-right:10px;
+      padding:7px 11px;
+      border:0;
+      border-radius:7px;
+      background:#e8f0ff;
+      color:#2563eb;
+      font-weight:650;
+      cursor:pointer;
+    }
+
+    form button,
+    .secondary{
+      border:0;
+      border-radius:10px;
+      padding:11px 18px;
+      font-family:inherit;
+      font-size:14px;
+      font-weight:700;
+      cursor:pointer;
+      transition:.2s ease;
+    }
+
+    form button[type="submit"]{
+      margin-top:21px;
+      background:#2563eb;
+      color:#fff;
+      box-shadow:0 8px 18px rgba(37,99,235,.2);
+    }
+
+    form button[type="submit"]:hover{
+      background:#1d4ed8;
+      transform:translateY(-1px);
+      box-shadow:0 11px 24px rgba(37,99,235,.25);
+    }
+
+    #message{
+      display:inline-block;
+      margin-left:13px;
+      color:#64748b;
+      font-size:13px;
+      font-weight:600;
+    }
+
+    .section-head{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:15px;
+      margin-bottom:18px;
+    }
+
+    .secondary{
+      padding:9px 14px;
+      background:#eff6ff;
+      color:#2563eb;
+    }
+
+    .secondary:hover{
+      background:#dbeafe;
+    }
+
+    table{
+      width:100%;
+      border-collapse:separate;
+      border-spacing:0;
+      overflow:hidden;
+    }
+
+    thead th{
+      padding:13px 15px;
+      text-align:left;
+      background:#f8fafc;
+      border-bottom:1px solid #e2e8f0;
+      color:#64748b;
+      font-size:11px;
+      font-weight:750;
+      letter-spacing:.6px;
+      text-transform:uppercase;
+    }
+
+    tbody td{
+      padding:15px;
+      border-bottom:1px solid #edf2f7;
+      color:#334155;
+      font-size:13px;
+      vertical-align:middle;
+    }
+
+    tbody tr{
+      transition:.15s ease;
+    }
+
+    tbody tr:hover{
+      background:#f8fbff;
+    }
+
+    tbody tr:last-child td{
+      border-bottom:0;
+    }
+
+    tbody button{
+      padding:0;
+      border:0;
+      background:none;
+      color:#2563eb;
+      font:inherit;
+      font-weight:700;
+      cursor:pointer;
+      text-align:left;
+    }
+
+    tbody button:hover{
+      text-decoration:underline;
+    }
+
+    .status{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:75px;
+      padding:5px 9px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:750;
+      letter-spacing:.2px;
+    }
+
+    .status.pass,
+    .status.PASS{
+      background:#dcfce7;
+      color:#15803d;
+    }
+
+    .status.fail,
+    .status.FAIL{
+      background:#fee2e2;
+      color:#b91c1c;
+    }
+
+    .status.warning,
+    .status.WARNING{
+      background:#fef3c7;
+      color:#b45309;
+    }
+
+    .status.not_applicable,
+    .status.NOT_APPLICABLE{
+      background:#f1f5f9;
+      color:#64748b;
+    }
+
+    .status.processing,
+    .status.PROCESSING{
+      background:#dbeafe;
+      color:#1d4ed8;
+    }
+
+    .hidden{
+      display:none!important;
+    }
+
+    #result{
+      scroll-margin-top:100px;
+    }
+
+    #result h3{
+      margin:29px 0 14px;
+      padding-bottom:9px;
+      border-bottom:1px solid #e5eaf1;
+      color:#172033;
+      font-size:16px;
+    }
+
+    .field-grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+    }
+
+    .field{
+      padding:17px;
+      border:1px solid #e5eaf1;
+      border-radius:13px;
+      background:#fbfdff;
+    }
+
+    .field>b{
+      display:block;
+      margin-bottom:9px;
+      color:#475569;
+      font-size:12px;
+      font-weight:750;
+      text-transform:uppercase;
+      letter-spacing:.35px;
+    }
+
+    .field-value{
+      color:#0f172a;
+      font-size:16px;
+      font-weight:700;
+      word-break:break-word;
+    }
+
+    .field small{
+      display:block;
+      margin-top:8px;
+      color:#64748b;
+      font-size:11px;
+    }
+
+    .evidence{
+      margin-top:11px;
+      padding:9px 11px;
+      border-left:3px solid #60a5fa;
+      background:#eff6ff;
+      border-radius:6px;
+      color:#475569;
+      font-size:12px;
+      line-height:1.5;
+    }
+
+    .line-table{
+      width:100%;
+      overflow-x:auto;
+      border:1px solid #e5eaf1;
+      border-radius:13px;
+    }
+
+    .line-table table{
+      min-width:650px;
+    }
+
+    .check{
+      margin:10px 0;
+      padding:16px;
+      border:1px solid #e5eaf1;
+      border-radius:12px;
+      background:#fbfdff;
+      color:#475569;
+      font-size:13px;
+      line-height:1.7;
+    }
+
+    .check>b{
+      display:block;
+      margin-bottom:5px;
+      color:#172033;
+    }
+
+    pre.json{
+      margin:8px 0 0;
+      padding:14px;
+      overflow:auto;
+      max-height:430px;
+      border:1px solid #e5eaf1;
+      border-radius:10px;
+      background:#0f172a;
+      color:#e2e8f0;
+      font-family:Consolas,"Courier New",monospace;
+      font-size:12px;
+      line-height:1.55;
+      white-space:pre-wrap;
+      word-break:break-word;
+    }
+
+    @media(max-width:800px){
+      header{
+        padding:18px 5%;
+      }
+
+      main{
+        width:94%;
+        margin-top:22px;
+      }
+
+      .hero{
+        padding:26px;
+      }
+
+      .hero h2{
+        font-size:24px;
+      }
+
+      .grid,
+      .field-grid{
+        grid-template-columns:1fr;
+      }
+
+      .card{
+        padding:20px;
+      }
+
+      .section-head{
+        align-items:flex-start;
+        flex-direction:column;
+      }
+
+      table{
+        min-width:650px;
+      }
+
+      .card{
+        overflow-x:auto;
+      }
+
+      #result{
+        overflow-x:hidden;
+      }
+    }
+
+    @media(max-width:520px){
+      header{
+        align-items:flex-start;
+        gap:15px;
+        flex-direction:column;
+      }
+
+      header a{
+        width:100%;
+      }
+
+      .hero-badges{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+
+      #message{
+        display:block;
+        margin:10px 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Document Intelligence</h1>
+    <p>Financial extraction, validation & evidence</p>
+  </div>
+
+  <a
+    href="/docs"
+    target="_blank"
+    rel="noopener"
+  >
+    API Docs
+  </a>
+</header>
+
+<main>
+
+  <section class="hero">
+    <h2>Intelligent Financial Document Analysis</h2>
+
+    <p>
+      Upload a financial document and let the system extract
+      structured information, validate financial relationships,
+      and provide OCR evidence from the original document.
+    </p>
+
+    <div class="hero-badges">
+      <span class="hero-badge">PaddleOCR</span>
+      <span class="hero-badge">Financial Extraction</span>
+      <span class="hero-badge">Automated Validation</span>
+      <span class="hero-badge">Evidence Tracking</span>
+    </div>
+  </section>
+
+  <section class="card">
+
+    <h2>Process Document</h2>
+
+    <p class="card-subtitle">
+      Upload a PDF or image and select the corresponding
+      financial document type.
+    </p>
+
+    <form id="uploadForm">
+
+      <div class="grid">
+
+        <label>
+          Document Type
+
+          <select
+            id="documentType"
+            required
+          >
+            <option value="invoice">
+              Invoice
+            </option>
+
+            <option
+              value="balance_sheet"
+              selected
+            >
+              Balance Sheet
+            </option>
+
+            <option value="profit_and_loss">
+              Profit & Loss
+            </option>
+
+            <option value="cash_flow_statement">
+              Cash Flow Statement
+            </option>
+          </select>
+        </label>
+
+        <label>
+          PDF / JPG / PNG
+
+          <input
+            id="file"
+            type="file"
+            accept=".pdf,.jpg,.jpeg,.png"
+            required
+          >
+        </label>
+
+      </div>
+
+      <button type="submit">
+        Process Document
+      </button>
+
+      <span id="message"></span>
+
+    </form>
+
+  </section>
+
+  <section class="card">
+
+    <div class="section-head">
+
+      <div>
+        <h2>Processed Documents</h2>
+
+        <p class="card-subtitle">
+          View previously processed documents and their results.
+        </p>
+      </div>
+
+      <button
+        type="button"
+        class="secondary"
+        onclick="loadDocuments()"
+      >
+        Refresh
+      </button>
+
+    </div>
+
+    <div class="line-table">
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Document</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>Processed</th>
+          </tr>
+        </thead>
+
+        <tbody id="documentRows">
+          <tr>
+            <td colspan="4">
+              Loading documents...
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </section>
+
+  <section
+    id="result"
+    class="card hidden"
+  ></section>
+
+</main>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
