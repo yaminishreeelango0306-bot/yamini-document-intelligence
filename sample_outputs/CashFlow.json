@@ -1,0 +1,942 @@
+{
+  "document_name": "Consolidated Profit & Loss 2021.pdf",
+  "document_type": "profit_and_loss",
+  "processing_status": "PASS",
+  "overall_confidence": 0.063,
+  "file_validation": {
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "extracted_data": {
+    "document_date": {
+      "value": "34-Mae-20",
+      "confidence": 0.94,
+      "evidence": {
+        "source_line": "34-Mae-20",
+        "raw": "34-Mae-20"
+      }
+    },
+    "currency": {
+      "value": null,
+      "confidence": 0
+    },
+    "revenue": {
+      "value": null,
+      "confidence": 0
+    },
+    "cost_of_sales": {
+      "value": null,
+      "confidence": 0
+    },
+    "gross_profit": {
+      "value": null,
+      "confidence": 0
+    },
+    "operating_profit": {
+      "value": null,
+      "confidence": 0
+    },
+    "interest_earned": {
+      "value": null,
+      "confidence": 0
+    },
+    "other_income": {
+      "value": null,
+      "confidence": 0
+    },
+    "total_income": {
+      "value": null,
+      "confidence": 0
+    },
+    "interest_expended": {
+      "value": null,
+      "confidence": 0
+    },
+    "operating_expenses": {
+      "value": null,
+      "confidence": 0
+    },
+    "provisions_and_contingencies": {
+      "value": null,
+      "confidence": 0
+    },
+    "total_expenditure": {
+      "value": null,
+      "confidence": 0
+    },
+    "tax": {
+      "value": null,
+      "confidence": 0
+    },
+    "net_profit": {
+      "value": null,
+      "confidence": 0
+    },
+    "line_items": [
+      {
+        "label": "Schedude",
+        "values": [
+          31,
+          -24
+        ],
+        "amount": 31,
+        "raw": "Schedude\n31.Mar-24"
+      },
+      {
+        "label": "Tutat",
+        "values": [
+          1,
+          2
+        ],
+        "amount": 1,
+        "raw": "Tutat\n1MRBS2.T3E"
+      },
+      {
+        "label": "Tutal",
+        "values": [
+          1240.2,
+          5
+        ],
+        "amount": 1240.2,
+        "raw": "Tutal\n1240.20n 005"
+      },
+      {
+        "label": "Lams tdeery rteest",
+        "values": [
+          2,
+          235000
+        ],
+        "amount": 2,
+        "raw": "Lams tdeery rteest\n2a2001\n235000"
+      },
+      {
+        "label": "tutad",
+        "values": [
+          17.87,
+          0
+        ],
+        "amount": 17.87,
+        "raw": "tutad\n17.87\nEIE.SONMEE"
+      },
+      {
+        "label": "TELTMLEYA",
+        "values": [
+          217
+        ],
+        "amount": 217,
+        "raw": "TELTMLEYA\n217."
+      },
+      {
+        "label": "Eeehnd (ncudeg ts/ee",
+        "values": [
+          0,
+          1
+        ],
+        "amount": 0,
+        "raw": "Eeehnd (ncudeg ts/ee\nTa shdeg c on mvdeed\n1"
+      },
+      {
+        "label": "kaeen Ditent pnitadng aa)",
+        "values": [
+          0,
+          10
+        ],
+        "amount": 0,
+        "raw": "kaeen Ditent pnitadng aa)\nToet 1o Oesesl Feme"
+      },
+      {
+        "label": "B",
+        "values": [
+          11230400,
+          0
+        ],
+        "amount": 11230400,
+        "raw": "B\n11.230.400\ntarote e/ here tnntreet Fheteatten Pesave"
+      },
+      {
+        "label": "Bme",
+        "values": [
+          7,
+          4
+        ],
+        "amount": 7,
+        "raw": "Bme\n7\nAUA4"
+      },
+      {
+        "label": "Dannt",
+        "values": [
+          37.81,
+          4.46
+        ],
+        "amount": 37.81,
+        "raw": "Dannt\n37.81\n4.46"
+      },
+      {
+        "label": "Pat dLn Acmut",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Pat dLn Acmut\nA per pr mgt of aan itans\nFor ae on benut of the Ban"
+      },
+      {
+        "label": "Umesh Candra Sarangl",
+        "values": [
+          0
+        ],
+        "amount": 0,
+        "raw": "Umesh Candra Sarangl\nadpena Dotcta"
+      },
+      {
+        "label": "Sashihar aagdistan",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Sashihar aagdistan\nCa Fim Pogamraton Bte 105o47W"
+      },
+      {
+        "label": "Pgtrer",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Pgtrer\nKaead Bharucho\nEancuthie.Duectoy"
+      },
+      {
+        "label": "Srnicasan Veidyanathan",
+        "values": [
+          0,
+          117812
+        ],
+        "amount": 0,
+        "raw": "Srnicasan Veidyanathan\nMamoertep femter: 117812"
+      },
+      {
+        "label": "Caepary Tecremary",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Caepary Tecremary\nSecbonth Haldonkar"
+      }
+    ],
+    "tables": [
+      {
+        "rows": [
+          {
+            "raw": "Consolidated Profit and Loss Account",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Po th yeo rtod Maetn.3L 21",
+            "values": [
+              0,
+              0,
+              0,
+              3,
+              21
+            ]
+          },
+          {
+            "raw": "e 000",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "31.Mar-24",
+            "values": [
+              31,
+              -24
+            ]
+          },
+          {
+            "raw": "Yeor ended",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "L.INCOME",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "34-Mae-20",
+            "values": [
+              34,
+              -20
+            ]
+          },
+          {
+            "raw": "brtorest earnest",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "13",
+            "values": [
+              13
+            ]
+          },
+          {
+            "raw": "1.286.523,33",
+            "values": [
+              1286523.33
+            ]
+          },
+          {
+            "raw": "Orer mcame",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "14",
+            "values": [
+              14
+            ]
+          },
+          {
+            "raw": "17L3R0S",
+            "values": [
+              17,
+              3,
+              0
+            ]
+          },
+          {
+            "raw": "1,221.80238",
+            "values": [
+              122180238
+            ]
+          },
+          {
+            "raw": "248.708.748",
+            "values": [
+              248708748
+            ]
+          },
+          {
+            "raw": "1MRBS2.T3E",
+            "values": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "raw": "H.EXPENOITUNE",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "1,470,002,003",
+            "values": [
+              1470002003
+            ]
+          },
+          {
+            "raw": "15",
+            "values": [
+              15
+            ]
+          },
+          {
+            "raw": "302x7110",
+            "values": [
+              302,
+              7110
+            ]
+          },
+          {
+            "raw": "021374,214",
+            "values": [
+              21374214
+            ]
+          },
+          {
+            "raw": "CoratPgoport",
+            "values": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Frgen aret cnrineee fehe Sehet s t8 (ttt",
+            "values": [
+              8
+            ]
+          },
+          {
+            "raw": "10",
+            "values": [
+              10
+            ]
+          },
+          {
+            "raw": "210.012.108",
+            "values": [
+              210012108
+            ]
+          },
+          {
+            "raw": "201.796.088",
+            "values": [
+              201796088
+            ]
+          },
+          {
+            "raw": "245.985.238",
+            "values": [
+              245985238
+            ]
+          },
+          {
+            "raw": "330.300.166",
+            "values": [
+              330300166
+            ]
+          },
+          {
+            "raw": "1240.20n 005",
+            "values": [
+              1240.2,
+              5
+            ]
+          },
+          {
+            "raw": "1,197,720410",
+            "values": [
+              1197720,
+              410
+            ]
+          },
+          {
+            "raw": "L. PROFIT",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "N soy h ye",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "HA5",
+            "values": [
+              5
+            ]
+          },
+          {
+            "raw": "272902.603",
+            "values": [
+              272902.603
+            ]
+          },
+          {
+            "raw": "2a2001",
+            "values": [
+              2,
+              2001
+            ]
+          },
+          {
+            "raw": "235000",
+            "values": [
+              235000
+            ]
+          },
+          {
+            "raw": "272.308.106",
+            "values": [
+              272308106
+            ]
+          },
+          {
+            "raw": "423.147",
+            "values": [
+              423.147
+            ]
+          },
+          {
+            "raw": "Conagigatod peunt ra the yea",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Masance it tha Poett and Laan Aeanurrt trmgtt henvant",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "17.87",
+            "values": [
+              17.87
+            ]
+          },
+          {
+            "raw": "EIE.SONMEE",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "S28.106.17%",
+            "values": [
+              2810617
+            ]
+          },
+          {
+            "raw": "801,035.581",
+            "values": [
+              801035581
+            ]
+          },
+          {
+            "raw": "N APPAOPRIATIONS",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "wtee to Saantory Fonerve",
+            "values": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "217.",
+            "values": [
+              217
+            ]
+          },
+          {
+            "raw": "Ta shdeg c on mvdeed",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "raw": "802.877",
+            "values": [
+              802.877
+            ]
+          },
+          {
+            "raw": "hurng the yoa set of itkcichand tac creita",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "etni penag to grevioun yeer pat",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "raw": "48.811.180",
+            "values": [
+              48811180
+            ]
+          },
+          {
+            "raw": "Toet 1o Oesesl Feme",
+            "values": [
+              0,
+              10,
+              0
+            ]
+          },
+          {
+            "raw": "31,118525",
+            "values": [
+              31118,
+              525
+            ]
+          },
+          {
+            "raw": "1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "raw": "2387.215",
+            "values": [
+              2387.215
+            ]
+          },
+          {
+            "raw": "14.408.304",
+            "values": [
+              14408304
+            ]
+          },
+          {
+            "raw": "20.0182",
+            "values": [
+              20.018,
+              2
+            ]
+          },
+          {
+            "raw": "11.230.400",
+            "values": [
+              11230400
+            ]
+          },
+          {
+            "raw": "tarote e/ here tnntreet Fheteatten Pesave",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "17.130.000",
+            "values": [
+              17130000
+            ]
+          },
+          {
+            "raw": "1,340.100",
+            "values": [
+              1340100
+            ]
+          },
+          {
+            "raw": "htantce catiac over to Bhalanoe Bheet",
+            "values": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "285.941.378",
+            "values": [
+              285941378
+            ]
+          },
+          {
+            "raw": "28.176.578",
+            "values": [
+              28176578
+            ]
+          },
+          {
+            "raw": "V. EARNENOS PER EOUTY SHARE (Fae Vae !1 pOr SharE",
+            "values": [
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "raw": "Torat",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "538.50.518",
+            "values": [
+              538.5,
+              518
+            ]
+          },
+          {
+            "raw": "B1,235581",
+            "values": [
+              1235,
+              581
+            ]
+          },
+          {
+            "raw": "7",
+            "values": [
+              7
+            ]
+          },
+          {
+            "raw": "AUA4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "raw": "37.81",
+            "values": [
+              37.81
+            ]
+          },
+          {
+            "raw": "4.46",
+            "values": [
+              4.46
+            ]
+          },
+          {
+            "raw": "T aohetues nteanmt to aoene trms an tegn Bart of the Caongciedatod",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Srecat aucorgsatoos at netee to Comte haa eerte",
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "17418",
+            "values": [
+              17418
+            ]
+          },
+          {
+            "raw": "A per pr mgt of aan itans",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "For ae on benut of the Ban",
+            "values": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "For MsKA 8. Aosociatas",
+            "values": [
+              0,
+              8,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Dates Acnteottent",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "adpena Dotcta",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Ca Fim Pogamraton Bte 105o47W",
+            "values": [
+              0,
+              0,
+              105047
+            ]
+          },
+          {
+            "raw": "Maragty Drecir CO",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Swopnl Kale",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Kaead Bharucho",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Eancuthie.Duectoy",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Mamoertep femter: 117812",
+            "values": [
+              0,
+              117812
+            ]
+          },
+          {
+            "raw": "Chaf Foanca C",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Manta_At tt 2001",
+            "values": [
+              2001
+            ]
+          },
+          {
+            "raw": "Secbonth Haldonkar",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "DrC nana Lnta hagrated Aonual Hpr an2o-21",
+            "values": [
+              0,
+              20,
+              -21
+            ]
+          },
+          {
+            "raw": "279",
+            "values": [
+              279
+            ]
+          }
+        ]
+      }
+    ],
+    "raw_text_by_page": {
+      "1": "Consolidated Profit and Loss Account\nPo th yeo rtod Maetn.3L 21\ne 000\nSchedude\nYear endeet\n31.Mar-24\nYeor ended\nL.INCOME\n34-Mae-20\nbrtorest earnest\n13\n1.286.523,33\nOrer mcame\n14\n17L3R0S\n1,221.80238\n248.708.748\nTutat\n1MRBS2.T3E\nH.EXPENOITUNE\n1,470,002,003\n15\n302x7110\n021374,214\nCoratPgoport\nFrgen aret cnrineee fehe Sehet s t8 (ttt\n10\n210.012.108\n201.796.088\n245.985.238\n330.300.166\nTutal\n1240.20n 005\n1,197,720410\nL. PROFIT\nN  soy h ye\nHA5\n272902.603\nLams tdeery rteest\n2a2001\n235000\n272.308.106\n423.147\nConagigatod peunt ra the yea\nMasance it tha Poett and Laan Aeanurrt trmgtt henvant\ntutad\n17.87\nEIE.SONMEE\nS28.106.17%\n801,035.581\nN APPAOPRIATIONS\nwtee to Saantory Fonerve\nTELTMLEYA\n217.\nEeehnd (ncudeg ts/ee\nTa shdeg c on mvdeed\n1\n802.877\nhurng the yoa set of itkcichand tac creita\netni penag to grevioun yeer pat\n1\n48.811.180\nkaeen Ditent pnitadng aa)\nToet 1o Oesesl Feme\n31,118525\n1\n2387.215\n14.408.304\n20.0182\nB\n11.230.400\ntarote e/ here tnntreet Fheteatten Pesave\n17.130.000\n1,340.100\nhtantce catiac over to Bhalanoe Bheet\n285.941.378\n28.176.578\nV. EARNENOS PER EOUTY SHARE (Fae Vae !1 pOr SharE\nTorat\n538.50.518\n-\nB1,235581\nBme\n7\nAUA4\n.\nDannt\n37.81\n4.46\nT aohetues nteanmt to aoene trms an tegn Bart of the Caongciedatod\nSrecat aucorgsatoos at netee to  Comte haa eerte\n17418\nPat dLn Acmut\nA per pr mgt of aan itans\nFor ae on benut of the Ban\nFor MsKA 8. Aosociatas\nDates Acnteottent\nUmesh Candra Sarangl\nadpena Dotcta\nSashihar aagdistan\nCa Fim Pogamraton Bte 105o47W\nMaragty Drecir  CO\nSwopnl Kale\nPgtrer\nKaead Bharucho\nEancuthie.Duectoy\nSrnicasan Veidyanathan\nMamoertep femter: 117812\nChaf Foanca C\nManta_At tt 2001\nCaepary Tecremary\nSecbonth Haldonkar\nDrC nana Lnta hagrated Aonual Hpr an2o-21\n279"
+    }
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "total_income_check",
+        "formula": "interest_earned + other_income ≈ total_income",
+        "operands": {
+          "interest_earned": null,
+          "other_income": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "total_expenditure_check",
+        "formula": "interest_expended + operating_expenses + provisions_and_contingencies ≈ total_expenditure",
+        "operands": {
+          "interest_expended": null,
+          "operating_expenses": null,
+          "provisions_and_contingencies": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "gross_profit_check",
+        "formula": "revenue - cost_of_sales ≈ gross_profit",
+        "operands": {
+          "revenue": null,
+          "cost_of_sales": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "operating_profit_check",
+        "formula": "gross_profit - operating_expenses ≈ operating_profit",
+        "operands": {
+          "gross_profit": null,
+          "operating_expenses": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "net_profit_check",
+        "formula": "total_income - total_expenditure ≈ net_profit",
+        "operands": {
+          "total_income": null,
+          "total_expenditure": null
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      }
+    ],
+    "overall_status": "NOT_APPLICABLE",
+    "issues": [],
+    "warnings": []
+  },
+  "processing_metadata": {
+    "ocr_used": true,
+    "processed_at": "2026-09-11T17:59:30.425440Z",
+    "processing_time_ms": 90268,
+    "ocr_time_ms": 90139,
+    "extraction_time_ms": 122,
+    "financial_validation_time_ms": 0
+  }
+}

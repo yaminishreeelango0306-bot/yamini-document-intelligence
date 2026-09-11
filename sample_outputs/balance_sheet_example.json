@@ -1,7 +1,8 @@
 {
-  "document_name": "Consolidated Balance Sheet 2024.pdf",
+  "document_name": "Consolidated Balance Sheet 2021.pdf",
   "document_type": "balance_sheet",
   "processing_status": "PASS",
+  "overall_confidence": 0.313,
   "file_validation": {
     "file_type": "application/pdf",
     "is_supported": true,
@@ -10,58 +11,763 @@
     "status": "PASS"
   },
   "extracted_data": {
-    "total_capital_and_liabilities": {
-      "value": 4030194.26,
-      "page_number": 1
-    },
-    "total_assets": {
-      "value": 4030194.26,
-      "page_number": 1
+    "document_date": {
+      "value": "Mas 21, 2021",
+      "confidence": 0.94,
+      "evidence": {
+        "source_line": "Mas 21, 2021",
+        "raw": "Mas 21, 2021"
+      }
     },
     "currency": {
-      "value": "INR",
-      "page_number": 1
-    },
-    "additional_financial_lines": {
-      "value": {
-        "Capital": {
-          "values": [
-            759.69,
-            587.97
-          ],
-          "page_number": 1
-        },
-        "Deposits": {
-          "values": [
-            2376887.28,
-            1882663.25
-          ],
-          "page_number": 1
-        }
+      "value": "USD",
+      "confidence": 0.94,
+      "evidence": {
+        "source_line": "$",
+        "raw": "$"
       }
+    },
+    "total_assets": {
+      "value": null,
+      "confidence": 0
+    },
+    "total_liabilities": {
+      "value": null,
+      "confidence": 0
+    },
+    "total_equity": {
+      "value": null,
+      "confidence": 0
+    },
+    "total_capital_and_liabilities": {
+      "value": null,
+      "confidence": 0
+    },
+    "line_items": [
+      {
+        "section": "assets",
+        "label": "17,5.0.",
+        "values": [
+          15.808304,
+          373
+        ],
+        "amount": 15.808304,
+        "raw": "17,5.0.482\n15.808,304,373"
+      },
+      {
+        "section": "assets",
+        "label": "208.021.70%",
+        "values": [
+          0,
+          5
+        ],
+        "amount": 0,
+        "raw": "208.021.70%\nara.r00.s5s"
+      },
+      {
+        "section": "assets",
+        "label": "Y22,110.",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Y22,110.003\nBanncee erm tenmt anit money it cat ane sn\nnot netcit"
+      },
+      {
+        "section": "assets",
+        "label": "157.291.",
+        "values": [
+          1,
+          4308221117
+        ],
+        "amount": 1,
+        "raw": "157.291.200m\n1\n4.308.221.117"
+      },
+      {
+        "section": "assets",
+        "label": "4.308.221.",
+        "values": [
+          3080040619,
+          0
+        ],
+        "amount": 3080040619,
+        "raw": "4.308.221.117\n3080040619\nAtanoes"
+      },
+      {
+        "section": "assets",
+        "label": "10.436.708,",
+        "values": [
+          10,
+          0.002
+        ],
+        "amount": 10,
+        "raw": "10.436.708,771\n10\n00.0021"
+      },
+      {
+        "section": "assets",
+        "label": "00.",
+        "values": [
+          552,
+          676.4
+        ],
+        "amount": 552,
+        "raw": "00.0021\n552 676.400"
+      },
+      {
+        "section": "assets",
+        "label": "4L.260.",
+        "values": [
+          11,
+          480278102
+        ],
+        "amount": 11,
+        "raw": "4L.260.10a\n11\n480.278.102"
+      },
+      {
+        "section": "assets",
+        "label": "480.278.",
+        "values": [
+          0,
+          70442
+        ],
+        "amount": 0,
+        "raw": "480.278.102\nTotad\n70442"
+      },
+      {
+        "section": "assets",
+        "label": "15.800.304.",
+        "values": [
+          0,
+          12
+        ],
+        "amount": 0,
+        "raw": "15.800.304.373\nCorsge etitmm\n12"
+      },
+      {
+        "section": "assets",
+        "label": "9.113.0m.",
+        "values": [
+          1,
+          4
+        ],
+        "amount": 1,
+        "raw": "9.113.0m.102\nT1,A04JI4LA1S"
+      },
+      {
+        "section": "assets",
+        "label": "B ta cusecton",
+        "values": [
+          447481,
+          440
+        ],
+        "amount": 447481,
+        "raw": "B ta cusecton\n447,481440"
+      },
+      {
+        "section": "assets",
+        "label": "511.848.",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "511.848.00\nThe scheddes relood to eteowe tonm an etegra part or he Corgcidated"
+      },
+      {
+        "section": "assets",
+        "label": "Baianan Sroet.",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "Baianan Sroet.\nFor anulf an tethuf if me Boumd"
+      },
+      {
+        "section": "assets",
+        "label": "For anulf an tethuf if me Boumd",
+        "values": [
+          0,
+          0
+        ],
+        "amount": 0,
+        "raw": "For anulf an tethuf if me Boumd\nF MA AaOts\nChartwed Aeoourtanta"
+      },
+      {
+        "section": "assets",
+        "label": "Unesh Chandra Barang",
+        "values": [
+          0
+        ],
+        "amount": 0,
+        "raw": "Unesh Chandra Barang\nndecendant Dietor"
+      },
+      {
+        "section": "assets",
+        "label": "Sathitar dagdistan",
+        "values": [
+          10004,
+          0
+        ],
+        "amount": 10004,
+        "raw": "Sathitar dagdistan\nICAu Fim Fingetraien Fiuetberc: 10004rW\nMMagng DreerOr4 CEO"
+      },
+      {
+        "section": "assets",
+        "label": "Bwaonil Kado",
+        "values": [
+          0
+        ],
+        "amount": 0,
+        "raw": "Bwaonil Kado\nPatow"
+      },
+      {
+        "section": "assets",
+        "label": "Kainat Hhanucta",
+        "values": [
+          0
+        ],
+        "amount": 0,
+        "raw": "Kainat Hhanucta\nEoDmcr"
+      },
+      {
+        "section": "assets",
+        "label": "Csf Fnscgi DM",
+        "values": [
+          0,
+          2
+        ],
+        "amount": 0,
+        "raw": "Csf Fnscgi DM\nMaertaerarsg Pertoat: tret2"
+      },
+      {
+        "section": "assets",
+        "label": "Maertaerarsg Pertoat: tret2",
+        "values": [
+          0,
+          12.202
+        ],
+        "amount": 0,
+        "raw": "Maertaerarsg Pertoat: tret2\nMumtoi, Ant 12.2021"
+      },
+      {
+        "section": "assets",
+        "label": "Santush Hatianhar",
+        "values": [
+          278
+        ],
+        "amount": 278,
+        "raw": "Santush Hatianhar\n278"
+      }
+    ],
+    "tables": [
+      {
+        "rows": [
+          {
+            "raw": "Consolidated Balance Sheet",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Ao at Mas 21, 2021",
+            "values": [
+              0,
+              21202,
+              1
+            ]
+          },
+          {
+            "raw": "n000",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "CAPITAL ANO LIABILITIES",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Aa at31-Mar-21",
+            "values": [
+              31,
+              -21
+            ]
+          },
+          {
+            "raw": "As a131-Mar-20",
+            "values": [
+              131,
+              -20
+            ]
+          },
+          {
+            "raw": "3",
+            "values": [
+              3
+            ]
+          },
+          {
+            "raw": "2.000.5110",
+            "values": [
+              2000511,
+              0
+            ]
+          },
+          {
+            "raw": "3.012.770",
+            "values": [
+              3012770
+            ]
+          },
+          {
+            "raw": "5-483.250",
+            "values": [
+              5,
+              -483.25
+            ]
+          },
+          {
+            "raw": "2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "raw": "1,712,103.108",
+            "values": [
+              1712103108
+            ]
+          },
+          {
+            "raw": "Moorty asenent",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "2A",
+            "values": [
+              2
+            ]
+          },
+          {
+            "raw": "6.32237",
+            "values": [
+              6.322,
+              37
+            ]
+          },
+          {
+            "raw": "1760.413",
+            "values": [
+              1760.413
+            ]
+          },
+          {
+            "raw": "Brosite",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "raw": "1120120784",
+            "values": [
+              1120120784
+            ]
+          },
+          {
+            "raw": "11 462 871.308",
+            "values": [
+              11,
+              462,
+              871.308
+            ]
+          },
+          {
+            "raw": "4",
+            "values": [
+              4
+            ]
+          },
+          {
+            "raw": "1.TT0DM7A7",
+            "values": [
+              1,
+              0,
+              7,
+              7
+            ]
+          },
+          {
+            "raw": "1.8E2.343231",
+            "values": [
+              1.8,
+              2.343,
+              231
+            ]
+          },
+          {
+            "raw": "T7e.000.008",
+            "values": [
+              7,
+              0.008
+            ]
+          },
+          {
+            "raw": "Y00.536.341",
+            "values": [
+              536341
+            ]
+          },
+          {
+            "raw": "Total",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "17,5.0.482",
+            "values": [
+              175,
+              0.482
+            ]
+          },
+          {
+            "raw": "15.808,304,373",
+            "values": [
+              15.808304,
+              373
+            ]
+          },
+          {
+            "raw": "8",
+            "values": [
+              8
+            ]
+          },
+          {
+            "raw": "208.021.70%",
+            "values": [
+              20802170
+            ]
+          },
+          {
+            "raw": "ara.r00.s5s",
+            "values": [
+              0,
+              5
+            ]
+          },
+          {
+            "raw": "Y22,110.003",
+            "values": [
+              22110003
+            ]
+          },
+          {
+            "raw": "Banncee erm tenmt anit money it cat ane sn",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "not netcit",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "7",
+            "values": [
+              7
+            ]
+          },
+          {
+            "raw": "157.291.200m",
+            "values": [
+              157291200
+            ]
+          },
+          {
+            "raw": "1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "raw": "4.308.221.117",
+            "values": [
+              4308221117
+            ]
+          },
+          {
+            "raw": "3080040619",
+            "values": [
+              3080040619
+            ]
+          },
+          {
+            "raw": "Atanoes",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "12.8",
+            "values": [
+              12.8
+            ]
+          },
+          {
+            "raw": "10",
+            "values": [
+              10
+            ]
+          },
+          {
+            "raw": "00.0021",
+            "values": [
+              0.002,
+              1
+            ]
+          },
+          {
+            "raw": "552 676.400",
+            "values": [
+              552,
+              676.4
+            ]
+          },
+          {
+            "raw": "4L.260.10a",
+            "values": [
+              4,
+              260.1
+            ]
+          },
+          {
+            "raw": "11",
+            "values": [
+              11
+            ]
+          },
+          {
+            "raw": "480.278.102",
+            "values": [
+              480278102
+            ]
+          },
+          {
+            "raw": "Totad",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "70442",
+            "values": [
+              70442
+            ]
+          },
+          {
+            "raw": "15.800.304.373",
+            "values": [
+              15800304373
+            ]
+          },
+          {
+            "raw": "Corsge etitmm",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "12",
+            "values": [
+              12
+            ]
+          },
+          {
+            "raw": "9.113.0m.102",
+            "values": [
+              91130,
+              102
+            ]
+          },
+          {
+            "raw": "T1,A04JI4LA1S",
+            "values": [
+              1,
+              4,
+              4,
+              1
+            ]
+          },
+          {
+            "raw": "B ta cusecton",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "447,481440",
+            "values": [
+              447481,
+              440
+            ]
+          },
+          {
+            "raw": "511.848.00",
+            "values": [
+              51184800
+            ]
+          },
+          {
+            "raw": "The scheddes relood to eteowe tonm an etegra part or he Corgcidated",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "17818",
+            "values": [
+              17818
+            ]
+          },
+          {
+            "raw": "Baianan Sroet.",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "For anulf an tethuf if me Boumd",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "F MA AaOts",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Chartwed Aeoourtanta",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "ndecendant Dietor",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "ICAu Fim Fingetraien Fiuetberc: 10004rW",
+            "values": [
+              10004
+            ]
+          },
+          {
+            "raw": "MMagng DreerOr4 CEO",
+            "values": [
+              0,
+              4,
+              0
+            ]
+          },
+          {
+            "raw": "Bwaonil Kado",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "Patow",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "EoDmcr",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Maertaerarsg Pertoat: tret2",
+            "values": [
+              0,
+              2
+            ]
+          },
+          {
+            "raw": "Mumtoi, Ant 12.2021",
+            "values": [
+              0,
+              12.202,
+              1
+            ]
+          },
+          {
+            "raw": "278",
+            "values": [
+              278
+            ]
+          }
+        ]
+      }
+    ],
+    "raw_text_by_page": {
+      "1": "口\nConsolidated Balance Sheet\nAo at Mas 21, 2021\nn000\nCAPITAL ANO LIABILITIES\nSehedle\nAa at31-Mar-21\nAs a131-Mar-20\nCagta\nAeeve nd b\n3\n2.000.5110\n3.012.770\n5-483.250\n2\n1,712,103.108\nMoorty asenent\n2A\n6.32237\n1760.413\nBrosite\n2\n1120120784\n11 462 871.308\nBhnwing\n4\n1.TT0DM7A7\n1.8E2.343231\nChar tat\neN\n$\nT7e.000.008\nY00.536.341\nTotal\nASSETS\n17,5.0.482\n15.808,304,373\n8\n208.021.70%\nara.r00.s5s\nY22,110.003\nBanncee erm tenmt anit money it cat ane sn\nnot netcit\n7\n157.291.200m\nWvenarerts\n1\n4.308.221.117\n3080040619\nAtanoes\n$\n12.8\n10.436.708,771\nFined atann\n10\n00.0021\n552 676.400\n4L.260.10a\nCether mttets\n11\n480.278.102\nTotad\n70442\n15.800.304.373\nCorsge etitmm\n12\n9.113.0m.102\nT1,A04JI4LA1S\nB ta cusecton\n447,481440\n511.848.00\nThe scheddes relood to eteowe tonm an etegra part or he Corgcidated\n17818\nBaianan Sroet.\nAs per  pt  e\nFor anulf an tethuf if me Boumd\nF MA  AaOts\nChartwed Aeoourtanta\nUnesh Chandra Barang\nndecendant Dietor\nSathitar dagdistan\nICAu Fim Fingetraien Fiuetberc: 10004rW\nMMagng DreerOr4 CEO\nBwaonil Kado\nPatow\nKainat Hhanucta\nEoDmcr\nCsf Fnscgi DM\nSrindeaaan Waicteenatuas\nMaertaerarsg Pertoat: tret2\nMumtoi, Ant 12.2021\nSantush Hatianhar\nCarpany Seersary\n278"
     }
   },
   "validation": {
     "checks": [
       {
         "name": "balance_sheet_equation",
-        "formula": "total_capital_and_liabilities \u2248 total_assets",
+        "formula": "total_capital_and_liabilities ≈ total_assets",
         "operands": {
-          "total_capital_and_liabilities": 4030194.26,
-          "total_assets": 4030194.26
+          "total_capital_and_liabilities": null,
+          "total_assets": null
         },
-        "calculated_value": 4030194.26,
-        "reported_value": 4030194.26,
-        "variance": 0.0,
-        "status": "PASS"
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
       }
     ],
-    "overall_status": "PASS",
-    "issues": []
+    "overall_status": "NOT_APPLICABLE",
+    "issues": [],
+    "warnings": []
   },
   "processing_metadata": {
     "ocr_used": true,
-    "processed_at": "example",
-    "processing_time_ms": 0
+    "processed_at": "2026-09-11T17:50:23.259345Z",
+    "processing_time_ms": 52364,
+    "ocr_time_ms": 52337,
+    "extraction_time_ms": 19,
+    "financial_validation_time_ms": 0
   }
 }

@@ -1,7 +1,8 @@
 {
-  "document_name": "batch2-0999.jpg",
+  "document_name": "batch3-1495.jpg",
   "document_type": "invoice",
   "processing_status": "PASS",
+  "overall_confidence": 0.306,
   "file_validation": {
     "file_type": "image/jpeg",
     "is_supported": true,
@@ -11,148 +12,454 @@
   },
   "extracted_data": {
     "invoice_number": {
-      "value": "118",
-      "confidence": 0.88,
-      "page_number": 1,
+      "value": "298839",
+      "confidence": 0.94,
       "evidence": {
-        "source_text": "INVOICE NO. 118",
-        "page_number": 1
-      }
-    },
-    "invoice_date": {
-      "value": "March 9, 2022",
-      "confidence": 0.88,
-      "page_number": 1,
-      "evidence": {
-        "source_text": "DATE: March 9, 2022",
-        "page_number": 1
+        "source_line": "Meld#298839",
+        "raw": "Meld#298839"
       }
     },
     "vendor_name": {
-      "value": "BLUE STREAK ELECTRONICS",
-      "confidence": 0.88,
-      "page_number": 1,
+      "value": "BEYOND DIGITAL IMAGING",
+      "confidence": 0.82,
       "evidence": {
-        "source_text": "Bill from BLUE STREAK ELECTRONICS",
-        "page_number": 1
+        "source_line": "BEYOND DIGITAL IMAGING",
+        "raw": "BEYOND DIGITAL IMAGING"
       }
     },
     "customer_name": {
-      "value": "GEONICS LTD",
-      "confidence": 0.88,
-      "page_number": 1,
-      "evidence": {
-        "source_text": "Bill To GEONICS LTD",
-        "page_number": 1
-      }
+      "value": null,
+      "confidence": 0
+    },
+    "document_date": {
+      "value": null,
+      "confidence": 0
     },
     "currency": {
-      "value": "CAD",
-      "confidence": 0.95,
-      "page_number": 1,
+      "value": "USD",
+      "confidence": 0.94,
       "evidence": {
-        "source_text": "MISSISSAUGA, Ontario, Canada",
-        "page_number": 1
+        "source_line": "$",
+        "raw": "$"
       }
     },
     "subtotal": {
-      "value": 804.0,
-      "confidence": 0.94,
-      "page_number": 1,
-      "evidence": {
-        "source_text": "Subtotal 804",
-        "page_number": 1
-      }
-    },
-    "tax_amount": {
-      "value": 63.47,
-      "confidence": 0.94,
-      "page_number": 1,
-      "evidence": {
-        "source_text": "Sales Tax 8% 63.47",
-        "page_number": 1
-      }
+      "value": null,
+      "confidence": 0
     },
     "discount": {
       "value": null,
-      "confidence": null,
-      "page_number": null,
-      "evidence": null
+      "confidence": 0
+    },
+    "tax_amount": {
+      "value": null,
+      "confidence": 0
     },
     "total_amount": {
-      "value": 916.47,
-      "confidence": 0.94,
-      "page_number": 1,
+      "value": 85257,
+      "confidence": 0.97,
       "evidence": {
-        "source_text": "Total Due 916.47",
-        "page_number": 1
+        "source_line": "Total 85257",
+        "raw": "85257"
       }
     },
-    "line_items": [
+    "shipping": {
+      "value": null,
+      "confidence": 0
+    },
+    "cash_paid": {
+      "value": null,
+      "confidence": 0
+    },
+    "change": {
+      "value": null,
+      "confidence": 0
+    },
+    "tables": [
       {
-        "description": "3M Scotchcast Electrical Resin #8 - 16 Ibs/kit 16 Ibs/case",
-        "quantity": 2,
-        "unit_price": 346.0,
-        "amount": 346.0,
-        "page_number": 1
-      },
-      {
-        "description": "3M DP460 EG Epoxy Adhesive - 50ml 2:1 12 kits/case",
-        "quantity": 4,
-        "unit_price": 226.0,
-        "amount": 226.0,
-        "page_number": 1
-      },
-      {
-        "description": "Freight AE Blake Montreal to Aerospace Metal",
-        "quantity": 6,
-        "unit_price": 136.0,
-        "amount": 136.0,
-        "page_number": 1
-      },
-      {
-        "description": "Lead-time is a mere estimate. Actual delivery may differ without notice",
-        "quantity": 8,
-        "unit_price": 96.0,
-        "amount": 96.0,
-        "page_number": 1
+        "rows": [
+          {
+            "raw": "Invoice",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Meld#298839",
+            "values": [
+              298839
+            ]
+          },
+          {
+            "raw": "BEYOND DIGITAL IMAGING",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "36 Apple Creek Bvd.",
+            "values": [
+              36
+            ]
+          },
+          {
+            "raw": "MARKHAML3R4Y4",
+            "values": [
+              3,
+              4,
+              4
+            ]
+          },
+          {
+            "raw": "Total 85257",
+            "values": [
+              0,
+              85257
+            ]
+          },
+          {
+            "raw": "From",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "MAROOHAM",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "L3R4Y4",
+            "values": [
+              3,
+              4,
+              4
+            ]
+          },
+          {
+            "raw": "Ticket Completed",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Invoice date",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Oct.13.2023",
+            "values": [
+              0,
+              13.202,
+              3
+            ]
+          },
+          {
+            "raw": "Sept. 5.2023",
+            "values": [
+              5.202,
+              3
+            ]
+          },
+          {
+            "raw": "Notes",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Unciogged the dispotal and repaired the stove kncb. Beth worting as they shouks.",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "No.",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Description",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Cost",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "Amount",
+            "values": [
+              0
+            ]
+          },
+          {
+            "raw": "5991",
+            "values": [
+              5991
+            ]
+          },
+          {
+            "raw": "3M SU3550 Dua Lock Fastener",
+            "values": [
+              3,
+              3550,
+              0
+            ]
+          },
+          {
+            "raw": "9",
+            "values": [
+              9
+            ]
+          },
+          {
+            "raw": "$367",
+            "values": [
+              367
+            ]
+          },
+          {
+            "raw": "3367",
+            "values": [
+              3367
+            ]
+          },
+          {
+            "raw": "$3303",
+            "values": [
+              3303
+            ]
+          },
+          {
+            "raw": "6015",
+            "values": [
+              6015
+            ]
+          },
+          {
+            "raw": "3M 369 Trans Polypro",
+            "values": [
+              3,
+              369,
+              0,
+              0
+            ]
+          },
+          {
+            "raw": "9",
+            "values": [
+              9
+            ]
+          },
+          {
+            "raw": "51",
+            "values": [
+              51
+            ]
+          },
+          {
+            "raw": "51",
+            "values": [
+              51
+            ]
+          },
+          {
+            "raw": "$9",
+            "values": [
+              9
+            ]
+          },
+          {
+            "raw": "6157",
+            "values": [
+              6157
+            ]
+          },
+          {
+            "raw": "3Mt 4949 VB Acry. Fnm Tape",
+            "values": [
+              3,
+              4949
+            ]
+          },
+          {
+            "raw": "1",
+            "values": [
+              1
+            ]
+          },
+          {
+            "raw": "$110",
+            "values": [
+              110
+            ]
+          },
+          {
+            "raw": "$110",
+            "values": [
+              110
+            ]
+          },
+          {
+            "raw": "$110",
+            "values": [
+              110
+            ]
+          },
+          {
+            "raw": "5810",
+            "values": [
+              5810
+            ]
+          },
+          {
+            "raw": "3M2242 Eechical Raober",
+            "values": [
+              3,
+              2242,
+              0
+            ]
+          },
+          {
+            "raw": "6",
+            "values": [
+              6
+            ]
+          },
+          {
+            "raw": "54",
+            "values": [
+              54
+            ]
+          },
+          {
+            "raw": "54",
+            "values": [
+              54
+            ]
+          },
+          {
+            "raw": "$24",
+            "values": [
+              24
+            ]
+          },
+          {
+            "raw": "5862",
+            "values": [
+              5862
+            ]
+          },
+          {
+            "raw": "3M 256 Printabie Flattack WH",
+            "values": [
+              3,
+              256
+            ]
+          },
+          {
+            "raw": "2",
+            "values": [
+              2
+            ]
+          },
+          {
+            "raw": "$17",
+            "values": [
+              17
+            ]
+          },
+          {
+            "raw": "$17",
+            "values": [
+              17
+            ]
+          },
+          {
+            "raw": "$34",
+            "values": [
+              34
+            ]
+          },
+          {
+            "raw": "Total:$5257",
+            "values": [
+              0,
+              5257
+            ]
+          }
+        ]
       }
     ],
-    "shipping": {
-      "value": 50.0,
-      "confidence": 0.94,
-      "page_number": 1,
-      "evidence": {
-        "source_text": "S&H 50",
-        "page_number": 1
-      }
+    "raw_text_by_page": {
+      "1": "Invoice\nMeld#298839\nBEYOND DIGITAL IMAGING\n36 Apple Creek Bvd.\nMARKHAML3R4Y4\nTotal 85257\nFrom\nMAROOHAM\nL3R4Y4\nTicket Completed\nInvoice date\nOct.13.2023\nSept. 5.2023\nNotes\nUnciogged the dispotal and repaired the stove kncb. Beth worting as they shouks.\nNo.\nDescription\nQuantty\nRate\nCost\nAmount\n5991\n3M SU3550 Dua Lock Fastener\n9\n$367\n3367\n$3303\n6015\n3M 369 Trans Polypro\n9\n51\n51\n$9\n6157\n3Mt 4949 VB Acry. Fnm Tape\n1\n$110\n$110\n$110\n5810\n3M2242 Eechical Raober\n6\n54\n54\n$24\n5862\n3M 256 Printabie Flattack WH\n2\n$17\n$17\n$34\nTotal:$5257"
     }
   },
   "validation": {
     "checks": [
       {
         "name": "invoice_total_check",
-        "formula": "subtotal + tax_amount + shipping - discount",
+        "formula": "subtotal + tax_amount + shipping - discount ≈ total_amount",
         "operands": {
-          "subtotal": 804.0,
-          "tax_amount": 63.47,
-          "shipping": 50.0,
-          "discount": 0.0
+          "subtotal": null,
+          "tax_amount": null,
+          "shipping": 0,
+          "discount": null
         },
-        "calculated_value": 917.47,
-        "reported_value": 916.47,
-        "variance": 1.0,
-        "status": "FAIL"
+        "calculated_value": null,
+        "reported_value": 85257,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "line_items_subtotal_check",
+        "formula": "sum(line_items.amount) ≈ subtotal",
+        "operands": {
+          "line_item_amounts": []
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
+      },
+      {
+        "name": "cash_change_check",
+        "formula": "cash_paid - total_amount ≈ change",
+        "operands": {
+          "cash_paid": null,
+          "total_amount": 85257
+        },
+        "calculated_value": null,
+        "reported_value": null,
+        "variance": null,
+        "status": "NOT_APPLICABLE",
+        "period": null
       }
     ],
-    "overall_status": "FAIL",
-    "issues": [
-      "Validation failed: invoice_total_check"
-    ]
+    "overall_status": "NOT_APPLICABLE",
+    "issues": [],
+    "warnings": []
   },
   "processing_metadata": {
     "ocr_used": true,
-    "processed_at": "example",
-    "processing_time_ms": 0
+    "processed_at": "2026-09-11T17:55:52.014483Z",
+    "processing_time_ms": 40158,
+    "ocr_time_ms": 40119,
+    "extraction_time_ms": 33,
+    "financial_validation_time_ms": 0
   }
 }
